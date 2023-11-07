@@ -9,3 +9,5 @@ stackNotifier = new FacebookNotifier(stackNotifier);
 stackNotifier = new SmsNotifier(stackNotifier);
 
 stackNotifier.sendMessage("Hello World from Client");
+
+//this pattern is following the desing on that site https://refactoring.guru/design-patterns/decorator
